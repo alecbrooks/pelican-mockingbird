@@ -69,6 +69,7 @@ p a {
 	text-decoration: underline;
 	}
 
+
 ul {
 	list-style: outside disc;
         }
@@ -94,6 +95,9 @@ blockquote {
 	padding-left: .75em;
 	border-left: 1px solid #EEE;
 	}
+
+abbr {border-bottom:1px dotted #A9A9A9;padding:1px;}
+
 
 .date {
 	color: #DDD;
