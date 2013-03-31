@@ -9,6 +9,7 @@ this thing is usable-ish now.
 ## Authors
 * [Nevan Scott] (original author)
 * [wrl] (port to pelican)
+* [Alec Brooks] (tweaks)
 
 ## License
 none specified in the original project, none specified here?????
@@ -16,3 +17,4 @@ none specified in the original project, none specified here?????
 [Nevan Scott]: http://nevanscott.com/
 [Mockingbird]: https://github.com/nevanscott/Mockingbird
 [wrl]: http://github.com/wrl
+[Alec Brooks]: http://bitbucket.org/alecbrooks
