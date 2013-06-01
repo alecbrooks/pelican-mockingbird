@@ -15,9 +15,9 @@
                     <div class="clear"></div>
                     <div class="info">
                         {% if article.pinned -%}
-                        <a href="{{ SITEURL }}/{{ article.url }}">posted {{ article.date.strftime("%B %e, %H:%M") }}</a>
+                        <a href="{{ SITEURL }}/{{ article.url }}">Posted {{ article.date.strftime("%B %e, %H:%M") }}.</a>
                         {%- else -%}
-                        <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
+                        <a href="{{ SITEURL }}/{{ article.url }}">Posted at {{ article.date.strftime("%H:%M") }}.</a>
                         {%- if article.category.name != "Uncategorized" -%}
                         &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
                         {%- endif %}
