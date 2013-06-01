@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	}
 h1, h2, h3 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1em;
 	margin: 1em 0;
 	}
@@ -96,7 +96,7 @@ blockquote {
 	border-left: 1px solid #EEE;
 	}
 
-abbr {border-bottom:1px dotted #A9A9A9;padding:1px;}
+abbr, a.abbr {border-bottom:1px dotted #A9A9A9;padding:1px; text-decoration: none;}
 
 
 .date {
@@ -164,6 +164,10 @@ abbr {border-bottom:1px dotted #A9A9A9;padding:1px;}
 .page {
 	margin: 0 90px;
 	}
+
+.title {
+	font-size: 1.5em !important;
+}
 
 div.codehilite {
 	-moz-border-radius: 5px;
