@@ -177,7 +177,8 @@ div.codehilite {
 
 code, pre {
 	font-family: monospace;
-	background-color: rgb(238, 238, 238);
+	/*background-color: rgb(238, 238, 238);*/
+	background-color: rgb(245, 245, 245)
 }
 
 .post pre, .page pre {
